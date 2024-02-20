@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simple HTMX</title>
+</head>
+<body class="p-12 w-full flex flex-col items-center justify-center">
+    <button hx-get="/test" hx-target="#target" hx-trigger="click" hx-indicator="#loading" class="rounded-xl shadow-lg p-4 bg-blue-500 mb-2">Click Me</button>
+    <div id="target"></div>
+    <span class="htmx-indicator" id="loading"><img src="img/loading.gif" /></span>
+</body>
+</html>

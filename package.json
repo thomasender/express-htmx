@@ -1,0 +1,19 @@
+{
+  "name": "htmx-spike",
+  "version": "1.0.0",
+  "description": "Simple htmx examples",
+  "main": "index.js",
+  "author": "Thomas Ender",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
